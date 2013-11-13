@@ -5,35 +5,40 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df579430-c654-47ae-8da6-9d44116d2fa9" name="Default" comment="" />
+    <list default="true" id="df579430-c654-47ae-8da6-9d44116d2fa9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Classifier.java" afterPath="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Classifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Main.java" afterPath="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java" afterPath="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SpamFilter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored mask=".git" />
     <ignored mask=".svn" />
     <ignored mask=".imi" />
     <file path="/NaiveBayes.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384189787074" ignored="false" />
-    <file path="/Main.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384163186326" ignored="false" />
-    <file path="/fragment.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384160779634" ignored="false" />
-    <file path="/Parser.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384190626410" ignored="false" />
+    <file path="/Main.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384201170007" ignored="false" />
+    <file path="/fragment.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384199476012" ignored="false" />
+    <file path="/Parser.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384201223237" ignored="false" />
     <file path="/Unnamed.txt.ft" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1383268208301" ignored="false" />
     <file path="/Class.txt.ft" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1383271831470" ignored="false" />
     <file path="/File Header.txt.ft" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1383271810413" ignored="false" />
     <file path="/FileHeader2.txt.ft" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1383271813524" ignored="false" />
     <file path="/File Header2.txt.ft" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1383272506808" ignored="false" />
     <file path="/WordPool.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1383306957407" ignored="false" />
-    <file path="/Classifier.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384153747013" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384187331643" ignored="false" />
-    <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/KMeansDriver.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384195592821" ignored="false" />
-    <file path="/KMeansDriver.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384194651514" ignored="false" />
-    <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/KMeansClusteringMapper.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384195241078" ignored="false" />
-    <file path="/KMeansClusteringMapper.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384192604885" ignored="false" />
+    <file path="/Classifier.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384200331755" ignored="false" />
+    <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/KMeansDriver.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384197426574" ignored="false" />
+    <file path="/KMeansDriver.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384197403768" ignored="false" />
+    <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/KMeansClusteringMapper.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384202867344" ignored="false" />
+    <file path="/KMeansClusteringMapper.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384202717399" ignored="false" />
     <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/KMeansReducer.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384192553929" ignored="false" />
     <file path="/KMeansReducer.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384192553052" ignored="false" />
     <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/KMeansMapper.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384192593766" ignored="false" />
     <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/Constants.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384191877326" ignored="false" />
     <file path="/KMeansMapper.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384192448887" ignored="false" />
     <file path="/Cluster.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384191861985" ignored="false" />
-    <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/Cluster.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384191862684" ignored="false" />
+    <file path="$PROJECT_DIR$/../FileSystem/src/main/java/org/apache/hadoop/KMeans/Cluster.java" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384197904996" ignored="false" />
+    <file path="/Dummy.txt" changelist="df579430-c654-47ae-8da6-9d44116d2fa9" time="1384199063107" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,22 +102,79 @@
     <favorites_list name="SpamFilter" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="NaiveBayes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/NaiveBayes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="15" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="71" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.6911263">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="36" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Classifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Classifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spambase.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Spambase.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.html" />
         <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/WordPool.java" />
-        <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Classifier.java" />
-        <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java" />
         <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/NaiveBayes.java" />
+        <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Classifier.java" />
+        <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java" />
       </list>
     </option>
   </component>
@@ -198,6 +260,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,32 +279,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpamFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpamFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpamFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpamFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spamFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.33091438" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -261,6 +350,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -291,19 +393,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -317,13 +406,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -345,6 +427,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
@@ -411,7 +500,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -424,22 +513,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33042395" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33042395" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3765586" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19225252" sideWeight="0.66957605" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23441397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19225252" sideWeight="0.765586" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23441397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.67206985" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -508,6 +597,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/NaiveBayes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="81" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="19" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="19" selection-start="3298" selection-end="3298" vertical-scroll-proportion="-2.451031" />
@@ -537,10 +640,10 @@
             <node x="" y="">META-INF</node>
             <node x="" y="">sun</node>
             <node x="" y="">sunw</node>
-            <node x="" y="">javax</node>
             <node x="" y="">apple</node>
-            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
             <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">java</node>
           </nodes>
           <notes />
           <edges />
@@ -555,6 +658,44 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2074" column="19" selection-start="81746" selection-end="81746" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Spambase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Classifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/NaiveBayes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="15" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tistory/lalap/spamFilter/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="71" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.6911263">
           <folding />
         </state>
       </provider>

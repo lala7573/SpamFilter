@@ -17,31 +17,19 @@ import java.util.Vector;
  */
 public class Parser {
 
-    public Vector<int[]> spam;
-    public Vector<int[]> ham;
 
-    public Vector<int[]> getSpam(){
-        return spam;
+    public static int[][] spam;
+    public static int[][] ham;
+    static char[] buffer = new char[1024];
+
+    public static int[][] getSpam(String dir) throws IOException {
+        return parsingText(getFileList(dir + "spam"));
     }
-    public Vector<int[]> getHam(){
-        return ham;
+
+    public static int[][] getHam(String dir) throws IOException {
+        return parsingText(getFileList(dir + "ham"));
     }
 
-    public Parser(String[] args) {
-        spam = new Vector<int[]>();
-        ham = new Vector<int[]>();
-
-        try{
-            //parsing
-            parsingText(getFileList(args[0]+"spam"), spam, true);
-            parsingText(getFileList(args[0]+"ham"), ham, false);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
     /**
      * return every file path in vPath.
      * First, i want to use Files.walkFileTree, but i didn't find uses enough.
@@ -49,15 +37,15 @@ public class Parser {
      *
      * @param path
      * @param vPath
-     * @throws IOException
      * @return vPath
+     * @throws IOException
      * @deprecated
      */
     public static void walkingFileTree(Path path, Vector<Path> vPath) throws IOException {
-        if( Files.isDirectory(path)){
+        if (Files.isDirectory(path)) {
             DirectoryStream<Path> dir = Files.newDirectoryStream(path);
-            for(Path file : dir){
-                if( Files.isDirectory(file) )
+            for (Path file : dir) {
+                if (Files.isDirectory(file))
                     walkingFileTree(file, vPath);
                 else
                     vPath.add(file);
@@ -70,48 +58,50 @@ public class Parser {
 
     /**
      * get directory file name and return files in that directory
+     *
      * @param path
      * @return path.listFiles
      */
-    public static File[] getFileList(String path){
+    public static File[] getFileList(String path) {
         File file = new File(path);
         return file.listFiles();
     }
+
     /**
      * find key and set map(set of vector from mail)
+     *
      * @param vPath
-     * @param map
      * @throws IOException
      */
-    public void parsingText(File[] vPath, Vector<int[]> map, boolean isSpam) throws IOException {
-        String line;
+    public static int[][] parsingText(File[] vPath) throws IOException {
+
+        int keyLength = NaiveBayes.keyVector.length - 1;
         int[] value;
+        int[][] map = new int[vPath.length][keyLength];
 
-        //for(Path file : vPath){
-        for(File file : vPath){
-            int index = 0;
 
-            FileInputStream fis = new FileInputStream(file);
-
+        for (int fileIndex = 0; fileIndex < vPath.length; ++fileIndex) {
+            FileInputStream fis = new FileInputStream(vPath[fileIndex]);
             BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
-            value = new int[NaiveBayes.keyVector.length - 1];
-            for(String key : NaiveBayes.keyVector) {
-                while( null != (line = reader.readLine())){
-                    if(-1 != line.indexOf(key)) {
-                        value[index] = 1;
-                        break;
-                    }
-                }
-                ++index;
 
-                fis.getChannel().position(0);
+            value = new int[keyLength];
+            StringBuilder fileToString = new StringBuilder();
+            while (-1 != reader.read(buffer)) {
+                fileToString.append(buffer);
             }
+
+            for (int index = 0; index < keyLength; ++index) {   //-2인 이유는 마지막에 isSpam을 빼주려고
+
+                if (-1 != fileToString.indexOf(NaiveBayes.keyVector[index])) {
+                    value[index] = 1;
+                }
+            }
+            map[fileIndex] = value;
 
             reader.close();
             fis.close();
-
-            map.add(value);
         }
+        return map;
     }
 
 
